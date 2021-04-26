@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+
+ <title>Search</title>
+<link rel="stylesheet" href="tasarim.css">
+
+ </head>
+ <body>
+
+    
+<div>
+    <button id="A123" class="NineDotsButton"><img height="20" width="20" src="https://i.ya-webdesign.com/images/dots-png-12.png" /></button>
+    <form action="https://accounts.google.com/">
+    </form>
+    <a href=""  class="rightText1">Görseller</a>
+    
+    <form action="https://accounts.google.com/" >
+        <input type="submit" class="rightflexbutton" id="A122" value="Oturum açın">
+    </form>
+
+
+    
+</div>
+
+ <div class="centerimage"> 
+<img height="170" weight="170" src="https://marka-logo.com/wp-content/uploads/2020/09/Google-Logo.png">
+</div>  
+
+<div class="center">
+    <form action="https://google.com/search" >
+        <input type="text" name="q" class="inputSearch">
+         <input type="submit" value="Google'da Ara" class="searchButton">
+
+         <input id="lucky" name="btnI" type="submit" value="Kendimi Şanslı Hissediyorum" class="searchButton">
+    </form>
+
+
+
+</div>
+
+
+
+ </body>
+
+</html>
