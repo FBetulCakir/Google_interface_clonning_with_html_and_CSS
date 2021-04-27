@@ -32,7 +32,7 @@
     font-size: 16px;
     background-color: #5a5cdf;
     color: white;
-  }
+ }
 
   .rightflexbutton:hover{
     background-color: #6466e7;
@@ -67,7 +67,8 @@
       font-size: 15px;
   }
 
-  .inputSearch:hover{
+  .inputSearch:hover
+  {
       box-shadow: 0 0 10px 2px lightgray;
   }
 
@@ -138,10 +139,12 @@
     font-size: 14px;
   }
 
+
   .rightText2:hover
   {
     text-decoration: underline;
   } 
+
 
   #mic,#klavye
   {
@@ -163,6 +166,7 @@
     border-bottom-color:rgb(216, 216, 216);
     border-bottom-style: solid;
   }
+  
   .BottomLine2
   {
     display: flex;
@@ -195,7 +199,6 @@
     margin-top: 12px;
     text-decoration: none;
   }
-
   .bottomTexts:hover
   {
     text-decoration: underline;
@@ -211,7 +214,6 @@
     margin-top: 12px;
     text-decoration: none;
   }
-
   .bottomTextsMid:hover
   {
     text-decoration: underline;
@@ -227,7 +229,6 @@
     margin-top: 12px;
     text-decoration: none;
   }
-
   .bottomTextsLeft:hover
   {
     text-decoration: underline;
