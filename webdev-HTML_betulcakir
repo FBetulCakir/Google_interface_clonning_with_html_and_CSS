@@ -35,6 +35,12 @@
          <input type="submit" value="Google'da Ara" class="searchButton">
 
          <input id="lucky" name="btnI" type="submit" value="Kendimi Şanslı Hissediyorum" class="searchButton2">
+
+         <div class="center">
+            <p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Google'ı kullanabileceğiniz diğer diller: </p>
+            <a style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;" href="" >English</a>
+         </div>
+    
     </form>
 
 </div>
