@@ -1,4 +1,5 @@
-.center {
+
+  .center {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,18 +75,33 @@
   {
     border: solid 1px;
     border-color: white;
-    margin-left: 30px;
+    margin-left: 100px;
     margin-top: 20px;
-    padding: 8px 25px;
-    font-size: 16px;
+    padding: 6px 20px;
+    font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f3f3f3;
+    background-color: #f5f3f3;
     color: rgb(88, 88, 88);
     font-weight: bold;
     border-radius: 5px;
   }
 
-  .searchButton:hover
+  .searchButton2
+  {
+    border: solid 1px;
+    border-color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 6px 20px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f3f3;
+    color: rgb(88, 88, 88);
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+  .searchButton:hover, .searchButton2:hover
   {
     border: groove 1px;
     border-color: rgb(211, 211, 211);
@@ -93,11 +109,127 @@
 
   .rightText1
   {
-    color: rgb(48, 48, 48);
+    color: rgb(92, 92, 92);
     text-decoration: none;
+    position:absolute;
+    top:0;
+    right:0;
+    margin-top: 20px;
+    margin-right: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
   }
 
   .rightText1:hover
   {
     text-decoration: underline;
   } 
+
+  .rightText2
+  {
+    color: rgb(92, 92, 92);
+    text-decoration: none;
+    position:absolute;
+    top:0;
+    right:0;
+    margin-top: 20px;
+    margin-right: 295px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+
+  .rightText2:hover
+  {
+    text-decoration: underline;
+  } 
+
+  #mic,#klavye
+  {
+      display: flex;
+      position: absolute;
+      justify-content: center;
+  }
+
+  .BottomLine
+  {
+    display: flex;
+    position:absolute;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin-bottom: 50px;
+    background-color: rgb(243, 243, 243);
+    border-bottom-width:1px;
+    border-bottom-color:rgb(216, 216, 216);
+    border-bottom-style: solid;
+  }
+  .BottomLine2
+  {
+    display: flex;
+    position:absolute;
+    bottom:0;
+    left:0;
+    right: 0;
+    height: 50px;
+    background-color: rgb(243, 243, 243);
+    border-top-width: 1px;
+    border-top-color:rgb(216, 216, 216);
+    border-top-style: solid;
+  }
+
+  .Texts
+  {
+    color: rgb(129, 129, 129);
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .bottomTexts
+  {
+    color: rgb(129, 129, 129);
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 12px;
+    text-decoration: none;
+  }
+
+  .bottomTexts:hover
+  {
+    text-decoration: underline;
+  }
+
+  .bottomTextsMid
+  {
+    display: flex;
+    color: rgb(129, 129, 129);
+    margin-left: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 12px;
+    text-decoration: none;
+  }
+
+  .bottomTextsMid:hover
+  {
+    text-decoration: underline;
+  }
+
+  .bottomTextsLeft
+  {
+    display: flex;
+    color: rgb(129, 129, 129);
+    margin-left: 380px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 12px;
+    text-decoration: none;
+  }
+
+  .bottomTextsLeft:hover
+  {
+    text-decoration: underline;
+  }
+  
